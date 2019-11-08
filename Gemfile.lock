@@ -4,6 +4,7 @@ GEM
     mustermann (1.0.3)
     puma (3.12.1)
     rack (2.0.7)
+    rack-cors (1.0.3)
     rack-protection (2.0.7)
       rack
     sinatra (2.0.7)
@@ -18,6 +19,7 @@ PLATFORMS
 
 DEPENDENCIES
   puma
+  rack-cors
   sinatra
 
 RUBY VERSION

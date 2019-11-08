@@ -8,11 +8,11 @@
 
 如上图, 假设 Dashboard 架设在 `www.icbd.devel/dashboard`, 它请求本网站的资源都没有问题:
 
-![访问本站资源](/sinatra_demo/docs/正常请求.png)
+![访问本站资源](https://raw.githubusercontent.com/icbd/sinatra_demo/doc/cors/docs/正常请求.png)
 
 如果 Dashboard 架设在 `localhost:63342`, 它请求 `www.icbd.devel` 的资源就会多出一个 `OPTIONS` 请求:
 
-![跨站请求](/sinatra_demo/docs/跨站请求.png)
+![跨站请求](https://raw.githubusercontent.com/icbd/sinatra_demo/doc/cors/docs/跨站请求.png)
 
 CORS 的限制起源于浏览器的同源策略, 浏览器默认只允许本站的脚本访问本站的资源, 如果要发起跨站请求的话, 需要向相应的站点询问, 即发起 OPTIONS 请求.
 
